@@ -4,7 +4,7 @@ import java.util.Random;
 /*Clase que representa un dado de 6 caras y genera un numero aleatorio entre 1 y 6 cada vez que se requiera un lanzamiento de los dados */
 public class Dado {
     private final int NUMERO_CARAS = 6;        //constante, final=no se modifica, numero_caras=nombre de la constante
-
+    //puede ser publica o privada, son inmutables
     private Random random;
 
     public Dado(){
